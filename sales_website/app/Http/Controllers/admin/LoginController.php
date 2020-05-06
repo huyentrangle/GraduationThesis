@@ -10,7 +10,7 @@ class LoginController extends Controller
     function getLogin() {
         return view('admin.login.login');
     }
-    function Login() {
-        
+    function Login(request $request) {
+        dd($request->all());
     }
 }
